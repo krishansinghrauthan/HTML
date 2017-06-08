@@ -1,19 +1,112 @@
-.main{width:80%;margin-left:auto;margin-right:auto;}
-.top {width:1000px; margin-left:auto;margin-right:auto;}
-h1 {color:black; font-family:tahoma; float:left; font-size:15px;padding:5px 25px 10px 150px; }
+body {
+	margin:0px;
+}
 
-.menu {width:750px; margin-left:auto;margin-right:auto;}
-li {color:#cecece; display:inline-block; padding:15px 20px 10px 10px; float:left;}
+.main {
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.logo {
+	color:black; 
+	font-family:tahoma; 
+	display:inline-block; 
+	margin-left:100px;
+}
 
-.cart {float:right; padding-right:140px;padding-top:5px; }
+.menu {
+	display:inline-block; 
+	margin:20px 30px;
+	border-left:2px solid #cecece;
+}
 
-.header {width:1000px; clear:both;margin-left:auto;margin-right:auto;}
-h3 {width:500px; text-align:center; color:#cecece; font-family:arial; font-size:15px; margin:40px auto; border-bottom: 1px solid #efefef; line-height:1px; }
-h3, span { background-color:white; padding:0 10px; }
+ul {
+	text-align:center; 
+	margin:0; 
+	padding-left:50px;
+	
+	
+}
 
-.latest {width:750px; margin-left:auto;margin-right:auto; color:#cecece; font-family:tahoma; font-size:7px;text-align:center;}
-.popular {width:750px; margin-left:auto;margin-right:auto; color:#cecece; font-family:tahoma; font-size:7px;text-align:center; }
-.img {width:125px; height:160; border:2px solid #efefef; display:inline-block; padding:20px 20px 20px 20px; margin-right:40px;}
+li {
+	color:#cecece; 
+	list-style:none; 
+	display:inline-block;
+}
 
-.brand {width:650px; margin-left:auto; margin-right:auto;}
-.img1 {display:inline-block;  margin-top:25px; margin-left:9px; margin-right:9px; margin-bottom:25px;} 
+.menu-bar:hover{
+	background-color:#6f6f6f;
+}
+.menu-bar a:link{ 
+	text-decoration:none; 
+	color:#cecece; 
+	display:block; 
+	padding: 10px 20px;
+	
+}
+.menu-bar a:visited{
+	color:#cecece;
+}
+.cart {
+	float:right; 
+	margin-right:50px; 
+	margin-top:20px;
+}
+
+.header {
+	width:1000px; 
+	clear:both;
+}
+h3 {
+	width:500px; 
+	text-align:center; 
+	color:#cecece; 
+	font-family:arial; 
+	font-size:15px; 
+	margin:40px auto; 
+	border-bottom: 1px solid #efefef; 
+	line-height:1px; 
+}
+h3, span {
+	background-color:white; 
+	padding:0 10px;
+}
+
+.latest, .popular {
+	margin-left:auto;
+	margin-right:auto; 
+	text-align:center;
+}
+
+.img {
+	width:150px;
+	height:160; 
+	border:2px solid #efefef; 
+	display:inline-block; 
+	padding:20px 10px; 
+	margin:0 10px;
+}
+.t1 {
+	color:#cecece; 
+	font-family:tahoma; 
+	font-size:10px;
+	text-align:center;
+	padding:0px;
+}
+.t2 {
+	color:black; 
+	font-family:tahoma; 
+	font-size:10px;
+	text-align:center;
+	padding:0px;
+}
+.brand { 
+	margin-left:auto; 
+	margin-right:auto;
+	text-align:center;
+}
+.img1 {
+	display:inline-block; 
+	margin:20px 6.5px;
+}
+ 
